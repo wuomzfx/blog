@@ -20,7 +20,8 @@ IE时代，每一个前端同学都要费尽心力兼容各代版本IE。如今I
 
 现在我写了一个页面，body里设置了一个div，设置宽高为300px。并打印了刚阐述的那些宽度尺寸与div的宽度，没看到结果前，乍一想，应该是4个1440和一个300吧。然后屏幕蹦跶出这样的结果。
 
-![](http://mmbiz.qpic.cn/mmbiz_jpg/wP62YcCWCXXQMNDWBuZMFY6UsEzeayALAhEQZCesXpiaquNte82bgcqrwwNGAtDficBMMOIO5JXc7n5lWwegFHkA/640?wx_fmt=jpeg&tp=webp&wxfrom=5&wx_lazy=1)
+![](http://mmbiz.qpic.cn/mmbiz_jpg/wP62YcCWCXXQMNDWBuZMFY6UsEzeayALAhEQZCesXpiaquNte82bgcqrwwNGAtDficBMMOIO5JXc7n5lWwegFHkA/640)
+
 莫名其妙吧，跟想像中完全不一样啊。屏幕宽度咋成412px了，说好的2k屏呢？还有980px又是哪儿蹦达出来的。为了搞清这当中的奥秘，我们又得来学习一些概念了。
 
 * **设备像素**
