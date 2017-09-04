@@ -163,7 +163,7 @@ personA.show4().call(personB) // personA
 personA.show4.call(personB)() // personB
 ```
 
-我们发现与之前字面量声明的相比，show2方法的输出产生了不一样的结果。为什么呢？虽然说构造方法Person是有自己的函数作用域。但是对于person1来说，它只是一个对象，在直观感受上，它跟第一道题中的person1应该是一模一样的。 `JSON.stringify(new Person('person1')) === JSON.stringify(person1)`也证明了这一点。
+我们发现与之前字面量声明的相比，show2方法的输出产生了不一样的结果。为什么呢？虽然说构造方法Person是有自己的函数作用域。但是对于personA来说，它只是一个对象，在直观感受上，它跟第一道题中的person1应该是一模一样的。 `JSON.stringify(new Person('personA')) === JSON.stringify(person1)`也证明了这一点。
 
 说明构造函数创建对象与直接用字面量的形式去创建对象，它是不同的，构造函数创建对象，具体做了什么事呢？我引用红宝书中的一段话。
 
