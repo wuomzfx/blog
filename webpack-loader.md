@@ -10,7 +10,7 @@
 
 > loader 用于对模块的源代码进行转换。loader 可以使你在 import 或"加载"模块时预处理文件。因此，loader 类似于其他构建工具中“任务(task)”，并提供了处理前端构建步骤的强大方法。
 
-![](https://user-gold-cdn.xitu.io/2017/10/11/9b80ebeb87d321317ef90679e289e855)
+![](https://user-gold-cdn.xitu.io/2017/10/12/0dfdedeff330f47ba6a00c1e36896f71)
 
 举个稍微复杂的例子，[vue-loader](https://github.com/vuejs/vue-loader)，它官网介绍如下：
 
